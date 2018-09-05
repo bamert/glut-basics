@@ -29,3 +29,4 @@ target_link_libraries(window ${GLUT_LIBRARIES} )
 
 add_executable(mouse mouse.cpp)
 target_link_libraries(mouse ${GLUT_LIBRARIES} )
+

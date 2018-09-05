@@ -40,7 +40,7 @@ void display(){
     //image[i+3] = 255;
   } 
   glDrawPixels(wheight, wwidth,GL_RGB, GL_UNSIGNED_BYTE,image);
-  displayText(50,50,0,0,0,"FPS:523");
+  displayText(50,50,0,0,0,"This is a test-text");
   glutSwapBuffers();
   glFlush();
 }
